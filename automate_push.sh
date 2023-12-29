@@ -19,7 +19,8 @@ fi
 
 # Git commands
 git add .
-git commit -m "Commit message"
-git remote add origin "https://$TOKEN@github.com/$USERNAME/$REPO_NAME.git"
+git commit -m "$COMMIT_MSG"
+git config credential.helper store
+
 git push origin main
 
