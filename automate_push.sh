@@ -21,6 +21,5 @@ fi
 git add .
 git commit -m "Commit message"
 git remote add origin "https://$TOKEN@github.com/$USERNAME/$REPO_NAME.git"
-git
 git push origin main
 
